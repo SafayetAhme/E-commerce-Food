@@ -14,6 +14,7 @@ import ManageFood from './Components/Pages/ManageFood/ManageFood.jsx';
 import RequestFood from './Components/Pages/RequestFood/RequestFood.jsx';
 import SignIn from './Components/Pages/SignIn/SignIn.jsx';
 import SignUp from './Components/Pages/SignUp/SignUp.jsx';
+import AuthProvider from './Components/Pages/Auth/AuthProvider.jsx';
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,8 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <AuthProvider>
+      <RouterProvider router={router} />
+    </AuthProvider>
   </React.StrictMode>,
 )

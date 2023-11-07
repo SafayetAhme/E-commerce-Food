@@ -22,7 +22,6 @@ const SectionTwo = () => {
                         <p>location</p>
                     </div>
                     <div className="  items-center pl-5 pr-5 pt-2">
-                        <h1 className="text-xl font-bold">expert date </h1>
                         <p>Lorem ipsum dolor sit amet consectetur  elit. Maxime, consequuntur </p>
                     </div>
                     <div className="card-actions justify-center pb-6 pt-4">
